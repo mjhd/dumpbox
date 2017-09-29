@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(codechef)
+project(shitbox)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -12,4 +12,4 @@ set(SOURCE_FILES
         gg.c
         read_args_short.c)
 
-add_executable(codechef ${SOURCE_FILES})
+add_executable(shitbox ${SOURCE_FILES})

@@ -54,45 +54,45 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/codechef
+CMAKE_SOURCE_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/codechef.dir
+# Target rules for target CMakeFiles/shitbox.dir
 
 # All Build rule for target.
-CMakeFiles/codechef.dir/all:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/depend
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target codechef"
-.PHONY : CMakeFiles/codechef.dir/all
+CMakeFiles/shitbox.dir/all:
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/depend
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target shitbox"
+.PHONY : CMakeFiles/shitbox.dir/all
 
 # Include target in all.
-all: CMakeFiles/codechef.dir/all
+all: CMakeFiles/shitbox.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/codechef.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/codechef.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/codechef.dir/rule
+CMakeFiles/shitbox.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/shitbox.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/shitbox.dir/rule
 
 # Convenience name for target.
-codechef: CMakeFiles/codechef.dir/rule
+shitbox: CMakeFiles/shitbox.dir/rule
 
-.PHONY : codechef
-
-# clean rule for target.
-CMakeFiles/codechef.dir/clean:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/clean
-.PHONY : CMakeFiles/codechef.dir/clean
+.PHONY : shitbox
 
 # clean rule for target.
-clean: CMakeFiles/codechef.dir/clean
+CMakeFiles/shitbox.dir/clean:
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/clean
+.PHONY : CMakeFiles/shitbox.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/shitbox.dir/clean
 
 .PHONY : clean
 

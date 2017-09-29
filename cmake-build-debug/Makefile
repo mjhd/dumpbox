@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/codechef
+CMAKE_SOURCE_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug
+CMAKE_BINARY_DIR = /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug/CMakeFiles /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug/CMakeFiles /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/codechef/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /nfs/2016/m/mhouser/Desktop/files-8.4/shitbox/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named codechef
+# Target rules for targets named shitbox
 
 # Build rule for target.
-codechef: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 codechef
-.PHONY : codechef
+shitbox: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 shitbox
+.PHONY : shitbox
 
 # fast build rule for target.
-codechef/fast:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/build
-.PHONY : codechef/fast
+shitbox/fast:
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/build
+.PHONY : shitbox/fast
 
 aa.o: aa.c.o
 
@@ -129,7 +129,7 @@ aa.o: aa.c.o
 
 # target to build an object file
 aa.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/aa.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/aa.c.o
 .PHONY : aa.c.o
 
 aa.i: aa.c.i
@@ -138,7 +138,7 @@ aa.i: aa.c.i
 
 # target to preprocess a source file
 aa.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/aa.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/aa.c.i
 .PHONY : aa.c.i
 
 aa.s: aa.c.s
@@ -147,7 +147,7 @@ aa.s: aa.c.s
 
 # target to generate assembly for a file
 aa.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/aa.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/aa.c.s
 .PHONY : aa.c.s
 
 bb.o: bb.c.o
@@ -156,7 +156,7 @@ bb.o: bb.c.o
 
 # target to build an object file
 bb.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/bb.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/bb.c.o
 .PHONY : bb.c.o
 
 bb.i: bb.c.i
@@ -165,7 +165,7 @@ bb.i: bb.c.i
 
 # target to preprocess a source file
 bb.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/bb.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/bb.c.i
 .PHONY : bb.c.i
 
 bb.s: bb.c.s
@@ -174,7 +174,7 @@ bb.s: bb.c.s
 
 # target to generate assembly for a file
 bb.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/bb.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/bb.c.s
 .PHONY : bb.c.s
 
 dd.o: dd.c.o
@@ -183,7 +183,7 @@ dd.o: dd.c.o
 
 # target to build an object file
 dd.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/dd.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/dd.c.o
 .PHONY : dd.c.o
 
 dd.i: dd.c.i
@@ -192,7 +192,7 @@ dd.i: dd.c.i
 
 # target to preprocess a source file
 dd.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/dd.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/dd.c.i
 .PHONY : dd.c.i
 
 dd.s: dd.c.s
@@ -201,7 +201,7 @@ dd.s: dd.c.s
 
 # target to generate assembly for a file
 dd.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/dd.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/dd.c.s
 .PHONY : dd.c.s
 
 ee.o: ee.c.o
@@ -210,7 +210,7 @@ ee.o: ee.c.o
 
 # target to build an object file
 ee.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/ee.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/ee.c.o
 .PHONY : ee.c.o
 
 ee.i: ee.c.i
@@ -219,7 +219,7 @@ ee.i: ee.c.i
 
 # target to preprocess a source file
 ee.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/ee.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/ee.c.i
 .PHONY : ee.c.i
 
 ee.s: ee.c.s
@@ -228,7 +228,7 @@ ee.s: ee.c.s
 
 # target to generate assembly for a file
 ee.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/ee.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/ee.c.s
 .PHONY : ee.c.s
 
 ff.o: ff.c.o
@@ -237,7 +237,7 @@ ff.o: ff.c.o
 
 # target to build an object file
 ff.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/ff.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/ff.c.o
 .PHONY : ff.c.o
 
 ff.i: ff.c.i
@@ -246,7 +246,7 @@ ff.i: ff.c.i
 
 # target to preprocess a source file
 ff.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/ff.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/ff.c.i
 .PHONY : ff.c.i
 
 ff.s: ff.c.s
@@ -255,7 +255,7 @@ ff.s: ff.c.s
 
 # target to generate assembly for a file
 ff.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/ff.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/ff.c.s
 .PHONY : ff.c.s
 
 gg.o: gg.c.o
@@ -264,7 +264,7 @@ gg.o: gg.c.o
 
 # target to build an object file
 gg.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/gg.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/gg.c.o
 .PHONY : gg.c.o
 
 gg.i: gg.c.i
@@ -273,7 +273,7 @@ gg.i: gg.c.i
 
 # target to preprocess a source file
 gg.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/gg.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/gg.c.i
 .PHONY : gg.c.i
 
 gg.s: gg.c.s
@@ -282,7 +282,7 @@ gg.s: gg.c.s
 
 # target to generate assembly for a file
 gg.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/gg.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/gg.c.s
 .PHONY : gg.c.s
 
 read_args_short.o: read_args_short.c.o
@@ -291,7 +291,7 @@ read_args_short.o: read_args_short.c.o
 
 # target to build an object file
 read_args_short.c.o:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/read_args_short.c.o
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/read_args_short.c.o
 .PHONY : read_args_short.c.o
 
 read_args_short.i: read_args_short.c.i
@@ -300,7 +300,7 @@ read_args_short.i: read_args_short.c.i
 
 # target to preprocess a source file
 read_args_short.c.i:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/read_args_short.c.i
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/read_args_short.c.i
 .PHONY : read_args_short.c.i
 
 read_args_short.s: read_args_short.c.s
@@ -309,7 +309,7 @@ read_args_short.s: read_args_short.c.s
 
 # target to generate assembly for a file
 read_args_short.c.s:
-	$(MAKE) -f CMakeFiles/codechef.dir/build.make CMakeFiles/codechef.dir/read_args_short.c.s
+	$(MAKE) -f CMakeFiles/shitbox.dir/build.make CMakeFiles/shitbox.dir/read_args_short.c.s
 .PHONY : read_args_short.c.s
 
 # Help Target
@@ -320,7 +320,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... codechef"
+	@echo "... shitbox"
 	@echo "... aa.o"
 	@echo "... aa.i"
 	@echo "... aa.s"
